@@ -1,0 +1,118 @@
+
+h1:hover {    
+    background-color: #ffff80;
+    color: black;
+    transition: 600ms ease-in-out;
+}
+
+
+li  {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* NAVBAR */
+
+.topnav {
+    background: black;
+    overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #ffff80;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'Oleo Script', cursive;
+}
+
+.topnav a:hover {
+  transition: ease-in-out 600ms;
+  background-color: #ffff80;
+  color: black;
+}
+
+.airQuality {
+   padding-top: 20px;
+   background-color: white;
+}
+
+#submit {
+    background-color: black;
+    color: #ffff80;
+    border: none;
+}
+
+#submit:hover {
+    color: black;
+    background-color: #ffff80;
+    transition: ease-in-out 600ms;
+}
+
+h1 {
+    
+    color: #ffff80;
+    background-color: black;
+}
+
+/* Panels */ 
+
+.panel {
+    border-style: solid;
+    border-color: grey;
+    border-width: 2px;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+}
+.panel-heading {
+    border-top-left-radius: 3% !important;
+    border-top-right-radius: 3%;
+}
+.panel-heading h4 {
+    color: #ffff80;           
+    font-size: 33px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    background: black;
+}
+
+.panel p {
+    padding: 15px;   
+    color: black;
+    font-weight: normal;
+}
+
+.panel-footer {
+    padding: 10px 0 10px 0;
+    background-color: #b3b3b3;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+}
+
+.panel .btn {
+    background-color: #ffff80;
+    color: black;
+}
+
+.panel .btn:hover {
+    background-color: black;
+    color: #ffff80;
+    transition: 600ms ease-in-out;
+}
+
+.btn {
+    background-color: #ffff80;
+    color: black;
+}
+
+.btn:hover {
+    background-color: black;
+    color: #ffff80;
+    transition: 600ms ease-in-out;
+}
